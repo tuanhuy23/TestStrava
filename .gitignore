@@ -1,0 +1,39 @@
+# Visual Studio / .NET
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.cache
+
+# NuGet
+*.nupkg
+packages/
+
+# Rider / JetBrains
+.idea/
+
+# VS Code
+.vscode/
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+env/
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs / temp
+*.log
+*.tmp
+
+# Secrets / env
+.env
+secrets.*
