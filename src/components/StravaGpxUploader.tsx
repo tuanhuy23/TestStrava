@@ -37,8 +37,6 @@ export default function StravaGpxUploader() {
         const formData = new FormData();
         formData.append('file', file);
         formData.append('data_type', 'gpx');
-        formData.append('name', 'Custom GPX Upload'); // You can make this dynamic later
-        formData.append('description', 'Uploaded via custom React application.');
 
         try {
             const response = await fetch('https://www.strava.com/api/v3/uploads', {
